@@ -8,8 +8,8 @@ public class Solution {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        String s=sc.next();
-         String c=sc.next();
+        String s=sc.next();// String s=sc.nextLine().trim();
+         String c=sc.next();String c=sc.nextLine().trim();
         System.out.println(s+c);
     }
 }
